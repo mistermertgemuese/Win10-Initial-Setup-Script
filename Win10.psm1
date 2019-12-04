@@ -3668,6 +3668,13 @@ Function Restart {
 	Restart-Computer
 }
 
+# Delete Edge Shortcut
+Function DeleteShortcutEdge {
+	Write-Output "Delete Microsoft Edge Desktop Shortcut..."
+	Remove-Item $env:userprofile\Desktop\*Edge.lnk -Recurse -Force
+}
+
+
 ##########
 #endregion Auxiliary Functions
 ##########
