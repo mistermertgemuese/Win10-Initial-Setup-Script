@@ -164,17 +164,17 @@ ShowThisPCOnDesktop             # HideThisPCFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
 # ShowNetworkOnDesktop          # HideNetworkFromDesktop
 # ShowBuildNumberOnDesktop      # HideBuildNumberFromDesktop
-ShowDesktopFromThisPC           # HideDesktopInThisPC
+ShowDesktopInThisPC             # HideDesktopFromThisPC
 # HideDesktopFromExplorer       # ShowDesktopInExplorer
-ShowDocumentsFromThisPC         # HideDocumentsInThisPC
+ShowDocumentsInThisPC           # HideDocumentsFromThisPC
 # HideDocumentsFromExplorer     # ShowDocumentsInExplorer
-ShowDownloadsFromThisPC         # HideDownloadsInThisPC
+ShowDownloadsInThisPC           # HideDownloadsFromThisPC
 # HideDownloadsFromExplorer     # ShowDownloadsInExplorer
-ShowMusicFromThisPC             # ShowMusicInThisPC
+ShowMusicInThisPC               # ShowMusicInThisPC
 # HideMusicFromExplorer         # ShowMusicInExplorer
-ShowPicturesFromThisPC          # HidePicturesInThisPC
+ShowPicturesInThisPC            # HidePicturesFromThisPC
 # HidePicturesFromExplorer      # ShowPicturesInExplorer
-ShowVideosFromThisPC            # HideVideosInThisPC
+ShowVideosInThisPC              # HideVideosFromThisPC
 # HideVideosFromExplorer        # ShowVideosInExplorer
 Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 # Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
@@ -215,7 +215,7 @@ AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
 RemoveFaxPrinter                # AddFaxPrinter
 # UninstallFaxAndScan           # InstallFaxAndScan
 DeleteShortcutEdge
-InstallBasicSoftware 
+#InstallBasicSoftware 
 
 ### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
