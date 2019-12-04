@@ -215,6 +215,7 @@ AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
 RemoveFaxPrinter                # AddFaxPrinter
 # UninstallFaxAndScan           # InstallFaxAndScan
 DeleteShortcutEdge
+InstallBasicSoftware 
 
 ### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
