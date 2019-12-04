@@ -12,7 +12,7 @@ RequireAdmin
 DisableTelemetry                # EnableTelemetry
 DisableWiFiSense                # EnableWiFiSense
 # DisableSmartScreen            # EnableSmartScreen
-# DisableWebSearch              # EnableWebSearch
+DisableWebSearch                # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
 DisableBackgroundApps           # EnableBackgroundApps
@@ -31,8 +31,8 @@ DisableErrorReporting           # EnableErrorReporting
 # SetP2PUpdateLocal             # SetP2PUpdateInternet          # SetP2PUpdateDisable
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
-# EnableClearRecentFiles        # DisableClearRecentFiles
-# DisableRecentFiles            # EnableRecentFiles
+EnableClearRecentFiles        # DisableClearRecentFiles
+DisableRecentFiles            # EnableRecentFiles
 
 ### Security Tweaks ###
 # SetUACLow                     # SetUACHigh
@@ -73,7 +73,7 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # DisableNCSIProbe              # EnableNCSIProbe
 # DisableConnectionSharing      # EnableConnectionSharing
 DisableRemoteAssistance         # EnableRemoteAssistance
-# EnableRemoteDesktop           # DisableRemoteDesktop
+EnableRemoteDesktop           # DisableRemoteDesktop
 
 ### Service Tweaks ###
 # DisableUpdateMSRT             # EnableUpdateMSRT
@@ -104,7 +104,7 @@ EnableNTFSLongPaths             # DisableNTFSLongPaths
 
 ### UI Tweaks ###
 DisableActionCenter             # EnableActionCenter
-DisableLockScreen               # EnableLockScreen
+#DisableLockScreen               # EnableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
 HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
@@ -130,7 +130,7 @@ DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
 SetVisualFXPerformance          # SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
-# EnableDarkTheme               # DisableDarkTheme
+EnableDarkTheme               # DisableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
 # DisableEnhPointerPrecision    # EnableEnhPointerPrecision
@@ -141,9 +141,9 @@ SetVisualFXPerformance          # SetVisualFXAppearance
 DisableF1HelpKey                # EnableF1HelpKey
 
 ### Explorer UI Tweaks ###
-# ShowExplorerTitleFullPath     # HideExplorerTitleFullPath
+ShowExplorerTitleFullPath     # HideExplorerTitleFullPath
 ShowKnownExtensions             # HideKnownExtensions
-ShowHiddenFiles                 # HideHiddenFiles
+#ShowHiddenFiles                 # HideHiddenFiles
 # ShowSuperHiddenFiles          # HideSuperHiddenFiles
 # ShowEmptyDrives               # HideEmptyDrives
 # ShowFolderMergeConflicts      # HideFolderMergeConflicts
@@ -186,8 +186,8 @@ DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
-DisableOneDrive                 # EnableOneDrive
-UninstallOneDrive               # InstallOneDrive
+#DisableOneDrive                 # EnableOneDrive
+#UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # UninstallWindowsStore         # InstallWindowsStore
@@ -204,14 +204,14 @@ DisableMediaSharing             # EnableMediaSharing
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallPowerShellV2         # InstallPowerShellV2
 # InstallLinuxSubsystem         # UninstallLinuxSubsystem
-# InstallHyperV                 # UninstallHyperV
+InstallHyperV                 # UninstallHyperV
 # UninstallSSHClient            # InstallSSHClient
 # InstallSSHServer              # UninstallSSHServer
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
 # UninstallPDFPrinter           # InstallPDFPrinter
-UninstallXPSPrinter             # InstallXPSPrinter
+# UninstallXPSPrinter             # InstallXPSPrinter
 RemoveFaxPrinter                # AddFaxPrinter
 # UninstallFaxAndScan           # InstallFaxAndScan
 
@@ -224,8 +224,8 @@ RemoveFaxPrinter                # AddFaxPrinter
 # EnableAudio                   # DisableAudio
 
 ### Unpinning ###
-# UnpinStartMenuTiles
-# UnpinTaskbarIcons
+UnpinStartMenuTiles
+UnpinTaskbarIcons
 
 ### Auxiliary Functions ###
 WaitForKey
